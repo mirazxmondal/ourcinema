@@ -1,14 +1,14 @@
 // import { useState } from 'react'
 import "./App.css";
 import LittleCinema from "./Pages/LittleCinema";
-import Stories from "./Pages/Stories";
+// import Stories from "./Pages/Stories";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Stories />
+      <LittleCinema />
     </>
   );
 }
