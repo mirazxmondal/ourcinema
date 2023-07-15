@@ -1,25 +1,8 @@
-import { useEffect, useState } from "react";
-import supabase from "../../supabase.js";
+import { useState } from "react";
+import CardComponent from "../../Components/CardComponent.jsx";
 
 const Index = () => {
   const [blogs, setBlogs] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const { data, error } = await supabase.from("LittleCinema").select("*");
-        if (error) {
-          throw error;
-        }
-        console.log(data);
-        setBlogs(data);
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
 
   return (
     <div>
@@ -29,6 +12,7 @@ const Index = () => {
           <h4>{blog.body}</h4>
         </div>
       ))}
+      <CardComponent />
     </div>
   );
 };
