@@ -1,4 +1,5 @@
 import React from "react";
+import bannerimage from "/.././public/./images/stock.jpg";
 
 function LittleCinemaBanner() {
   return (
@@ -7,7 +8,7 @@ function LittleCinemaBanner() {
         className="bg-cover bg-center h-80 w-96"
         style={{
           backgroundImage:
-            "url('/.././public/./images/stock.jpg')",
+            "url(`${bannerimage}`)",
         }}
       >
         <div className="flex flex-row">

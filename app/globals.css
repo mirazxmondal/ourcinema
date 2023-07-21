@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.line {
+    border-left: 2px solid white;
+    height: 400px;
+}
