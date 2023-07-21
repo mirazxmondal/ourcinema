@@ -24,7 +24,7 @@ export default async function Home() {
       <div className="flex flex-wrap justify-center">
         <div className="mt-5 flex flex-col justify-center items-center w-[620px]">
           <div className="max-w-full flex flex-row space-x-5 ">
-            <Link href={`/projects/${projects[0].slug}`}>
+            <Link href={`LittleCinema/projects/${projects[0].slug}`}>
               <div
                 className="h-[342px] w-[400px] border border-black rounded-2xl"
                 style={{
@@ -39,7 +39,7 @@ export default async function Home() {
               </div>
             </Link>
 
-            <Link href={`/projects/${projects[4].slug}`}>
+            <Link href={`LittleCinema/projects/${projects[4].slug}`}>
               <div
                 className="h-[342px] w-[200px] border border-black rounded-2xl"
                 style={{
@@ -51,7 +51,7 @@ export default async function Home() {
             </Link>
           </div>
 
-          <Link href={`/projects/${projects[2].slug}`}>
+          <Link href={`LittleCinema/projects/${projects[2].slug}`}>
             <div
               className="w-[620px] h-52 border border-black mt-5 rounded-2xl"
               style={{
@@ -64,7 +64,7 @@ export default async function Home() {
             </div>
           </Link>
           <div className="mt-5 flex space-x-5">
-            <Link href={`/projects/${projects[3].slug}`}>
+            <Link href={`LittleCinema/projects/${projects[3].slug}`}>
               <div
                 className="h-[354px] w-[240px] rounded-2xl border border-black"
                 style={{
@@ -76,7 +76,7 @@ export default async function Home() {
             </Link>
 
             <div className="space-y-3 flex flex-col">
-              <Link href={`/projects/${projects[1].slug}`}>
+              <Link href={`LittleCinema/projects/${projects[1].slug}`}>
                 <div
                   className="h-[171px] w-[360px] border rounded-2xl border-black"
                   style={{
@@ -86,7 +86,7 @@ export default async function Home() {
                   }}
                 ></div>
               </Link>
-              <Link href={`/projects/${projects[5].slug}`}>
+              <Link href={`LittleCinema/projects/${projects[5].slug}`}>
                 <div
                   className="h-[171px] w-[360px] rounded-2xl border border-black"
                   style={{
@@ -101,7 +101,7 @@ export default async function Home() {
         </div>
         {projects.slice(0, 5).map((project) => (
           <Link
-            href={`/projects/${project.slug}`}
+            href={`LittleCinema/projects/${project.slug}`}
             key={project._id}
             className="border-2 border-gray-500 rounded-lg p-1 mb-5 mt-5"
           >
@@ -124,7 +124,7 @@ export default async function Home() {
       {/* <div className="mt-5 grid md:grid-cols-2">
         {projects.map((projects[0]) => (
           <Link
-            href={`/projects/${project.slug}`}
+            href={`LittleCinema/projects/${project.slug}`}
             key={project._id}
             className="border-2 border-gray-500 rounded-lg p-1 hover:scale-105 hover:border-blue-500 transition"
           >
