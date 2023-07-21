@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import "../globals.css";
 
 function MainNavbar() {
   return (
     <div>
-      <div className="flex justify-between space-x-6">
+      <div className="flex justify-between space-x-4">
         <Link href="/">HOME</Link>
         <Link href="/noticeboard">NOTICE BOARD</Link>
         <Link href="/inthenews">IN THE NEWS</Link>
