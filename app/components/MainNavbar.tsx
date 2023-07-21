@@ -4,7 +4,11 @@ import Link from 'next/link'
 function MainNavbar() {
   return (
     <div>
-      <Link href="/inthenews">In The News</Link>
+      <Link href="/">HOME</Link>
+      <Link href="/noticeboard">NOTICE BOARD</Link>
+      <Link href="/inthenews">IN THE NEWS</Link>
+      <Link href="/publications">PUBLICATIONS</Link>
+      <Link href="/supportus">SUPPORT US</Link>
     </div>
   )
 }
