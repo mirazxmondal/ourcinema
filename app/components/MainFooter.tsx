@@ -11,11 +11,11 @@ function MainFooter() {
           <p className="text-3xl font-medium mb-6">GET IN TOUCH</p>
           <form action="" className="text-xl flex flex-col w-80 space-y-2">
             <label htmlFor="">Name</label>
-            <input type="text" />
+            <input type="text" className="h-8" />
             <label htmlFor="">Email</label>
-            <input type="email" />
+            <input type="email" className="h-8" />
             <label htmlFor="">Subject</label>
-            <input type="text" />
+            <input type="text" className="h-8" />
             <label htmlFor="">Message</label>
             <input type="text" className="h-52" />
             <input
@@ -26,7 +26,7 @@ function MainFooter() {
         </div>
         <p className="line pr-32"></p>
         {/* CONTACT US */}
-        <div className="text-xl flex flex-col space-y-3 pl-24 pt-16 tracking-widest">
+        <div className="text-xl flex flex-col space-y-3 pl-24 pt-16 tracking-widest text-right">
           <div>
             <p>CONTACT US</p>
             <p>EMAIL - abc@gmail.com</p>
