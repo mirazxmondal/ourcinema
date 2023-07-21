@@ -1,5 +1,5 @@
 import React from 'react'
-import MainNav from '../../components/MainNav'
+import MainNav from '../../components/MainNavbar'
 
 function page() {
   return (
