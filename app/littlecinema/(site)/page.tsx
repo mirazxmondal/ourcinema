@@ -19,7 +19,7 @@ export default async function Home() {
       </p> */}
       <div className="flex flex-row">
         <h2 className="font-bold text-3xl">RELATED</h2>
-        <h2 className="font-bold text-red-600 text-3xl"> ARTICLES</h2>
+        <h2 className="font-bold text-red-600 text-3xl">ARTICLES</h2>
       </div>
       <div className="flex flex-wrap justify-center">
         <div className="mt-5 flex flex-col justify-center items-center w-[620px]">
