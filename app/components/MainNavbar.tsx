@@ -5,7 +5,7 @@ import "../globals.css";
 function MainNavbar() {
   return (
     <div>
-      <div className="h-20 mx-auto px-32 flex items-center justify-between font-semibold shadow-md">
+      <div className="h-20 mx-auto px-44 flex items-center justify-between font-normal shadow-md">
         <Link href="/" className="text-2xl cursor-pointer">
           Logo
         </Link>
