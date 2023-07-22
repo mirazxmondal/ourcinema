@@ -52,7 +52,9 @@ function page() {
           <div className="p-14 space-y-5">
             <p className="text-5xl text-bold">KOLKATA PEOPLE’S FILM</p>
             <p className="text-5xl text-bold">FESTIVAL</p>
-            <Link href="/festival" className="text-bold">CLICK TO SEE MORE</Link>
+            <Link href="/festival" className="text-bold">
+              CLICK TO SEE MORE
+            </Link>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -78,7 +80,9 @@ function page() {
         <div className="flex justify-center items-center bg-[#9AAFA8] h-[600px] w-[1150px]">
           <div className="p-14 space-y-5">
             <p className="text-5xl text-bold">SCREENING</p>
-            <Link href="/screenings" className="text-bold">CLICK TO SEE MORE</Link>
+            <Link href="/screenings" className="text-bold">
+              CLICK TO SEE MORE
+            </Link>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -119,7 +123,9 @@ function page() {
           </div>
           <div className="p-14 space-y-5">
             <p className="text-5xl text-bold">LITTLE CINEMA</p>
-            <Link href="/littlecinema" className="text-bold">CLICK TO SEE MORE</Link>
+            <Link href="/littlecinema" className="text-bold">
+              CLICK TO SEE MORE
+            </Link>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -142,9 +148,11 @@ function page() {
       {/* FOF */}
       <div className="bg-white h-[750px] w-[100%] flex justify-center items-center">
         <div className="flex justify-center items-center bg-[#9AAFA8] h-[600px] w-[1150px]">
-        <div className="p-14 space-y-5">
+          <div className="p-14 space-y-5">
             <p className="text-5xl text-bold">FRAMES OF FREEDOM</p>
-            <Link href="/fof" className="text-bold">CLICK TO SEE MORE</Link>
+            <Link href="/fof" className="text-bold">
+              CLICK TO SEE MORE
+            </Link>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -185,7 +193,9 @@ function page() {
           </div>
           <div className="p-14 space-y-5">
             <p className="text-5xl text-bold">STORIES</p>
-            <Link href="/stories" className="text-bold">CLICK TO SEE MORE</Link>
+            <Link href="/stories" className="text-bold">
+              CLICK TO SEE MORE
+            </Link>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
