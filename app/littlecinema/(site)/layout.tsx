@@ -16,11 +16,11 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className="max-w-3xl mx-auto py-10">
+      <body className="max-w-3xl mx-auto py-8">
         <header className="flex items-center justify-between">
           <Link
-            href="/"
-            className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent text-lg font-bold"
+            href="/littlecinema"
+            className="text-red-600 text-lg font-bold"
           >
             Little Cinema
           </Link>
@@ -28,7 +28,7 @@ export default async function RootLayout({
             {pages.map((page) => (
               <Link
                 key={page._id}
-                href={`/${page.slug}`}
+                href={`littlecinema/${page.slug}`}
                 className="hover:underline"
               >
                 {page.title}

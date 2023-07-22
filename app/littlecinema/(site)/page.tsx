@@ -1,4 +1,5 @@
 import LittleCinemaBanner from "@/app/components/LittleCinemaBanner";
+import MainFooter from "@/app/components/MainFooter";
 import { getProjects } from "@/sanity/sanity-utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -106,7 +107,7 @@ export default async function Home() {
                 className="object-cover rounded-lg border border-gray-500"
               />
             )}
-            <div className="mt-2 font-extrabold bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
+            <div className="mt-2 font-extrabold text-red-600 px-2">
               {project.name}
             </div>
           </Link>
@@ -135,6 +136,7 @@ export default async function Home() {
           </Link>
         ))}
       </div> */}
+      {/* <MainFooter /> */}
     </div>
   );
 }
