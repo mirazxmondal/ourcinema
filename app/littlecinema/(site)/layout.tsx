@@ -4,7 +4,7 @@ import { getPages } from "@/sanity/sanity-utils";
 
 export const metadata = {
   title: "Little Cinema",
-  description: "Blog stuff",
+  description: "Little Cinema blog page",
 };
 
 export default async function RootLayout({
