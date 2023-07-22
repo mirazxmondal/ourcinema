@@ -1,0 +1,73 @@
+{
+    "2023": [
+      {
+        "title": "5th FRAMES OF FREEFOM",
+        "about": "lorem",
+        "image": "path/CDN",
+        "details": {
+          "director-name": "name",
+          "movie-name": "name"
+        },
+        "movie": [
+          {
+            "NAME OF THE MOVIE": "movie name",
+            "DIRECTED BY": "director name",
+            "images": "images,images,images",
+            "DURATION": "time",
+            "YEAR": "2023",
+            "COUNTRY": "India",
+            "LANGUAGE": "english,bengali,hindi",
+            "DESCRIPTION": "description",
+            "ABOUT THE DIRECTOR": "description"
+          }
+        ],
+        "personnel": [
+          {
+            "Cinematographer": "cinematographer name",
+            "Editor": "editor name",
+            "Production Designer": "production designer",
+            "Sound Designer": "Sound designer",
+            "Sound Mixing and additional design": "name",
+            "Background Score": "name",
+            "Colorist": "name",
+            "Producer(s)": "name"
+          }
+        ]
+      },
+      {
+        "title": "5th FRAMES OF FREEFOM",
+        "about": "lorem",
+        "image": "path/CDN",
+        "details": {
+          "director-name": "name",
+          "movie-name": "name"
+        },
+        "movie": [
+          {
+            "NAME OF THE MOVIE": "movie name",
+            "DIRECTED BY": "director name",
+            "images": "images,images,images",
+            "DURATION": "time",
+            "YEAR": "2023",
+            "COUNTRY": "India",
+            "LANGUAGE": "english,bengali,hindi",
+            "DESCRIPTION": "description",
+            "ABOUT THE DIRECTOR": "description"
+          }
+        ],
+        "personnel": [
+          {
+            "Cinematographer": "cinematographer name",
+            "Editor": "editor name",
+            "Production Designer": "production designer",
+            "Sound Designer": "Sound designer",
+            "Sound Mixing and additional design": "name",
+            "Background Score": "name",
+            "Colorist": "name",
+            "Producer(s)": "name"
+          }
+        ]
+      }
+    ]
+  }
+  
