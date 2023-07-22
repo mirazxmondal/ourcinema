@@ -1,11 +1,14 @@
 import React from 'react'
-import MainFooter from '../components/MainFooter'
+import SubPageFooter from '../components/SubPageFooter'
+import ComingSoon from '../components/ComingSoon'
 
 function page() {
   return (
     <div>
-      <div>page</div>
-      <MainFooter />
+      <div>
+        <ComingSoon />
+      </div>
+      <SubPageFooter />
     </div>
   )
 }

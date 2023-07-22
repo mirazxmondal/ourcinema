@@ -1,12 +1,12 @@
 import React from "react";
-import MainFooter from "../components/MainFooter";
+import SubPageFooter from "../components/SubPageFooter";
 import InTheNewsCard from "../components/InTheNewsCard";
 
 function page() {
   return (
     <div>
       <InTheNewsCard />
-      <MainFooter />
+      <SubPageFooter />
     </div>
   );
 }
