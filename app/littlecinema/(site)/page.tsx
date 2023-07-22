@@ -19,7 +19,7 @@ export default async function Home() {
       <p className="mt-3 text-xl text-gray-600">
         Aloha everyone! Check out my projects!
       </p> */}
-      <div className="flex flex-row">
+      <div className="flex flex-row space-x-2">
         <h2 className="font-bold text-3xl">RELATED</h2>
         <h2 className="font-bold text-red-600 text-3xl">ARTICLES</h2>
       </div>
