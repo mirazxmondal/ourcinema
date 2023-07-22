@@ -44,8 +44,8 @@ function page() {
           <div>
             <Image
               src="/.././public/./images/portrait-stock.jpg"
-              width={1000}
-              height={1000}
+              width={4000}
+              height={4000}
               alt="Picture of the author"
             />
           </div>
@@ -103,8 +103,8 @@ function page() {
           <div>
             <Image
               src="/.././public/./images/portrait-stock.jpg"
-              width={1000}
-              height={1000}
+              width={4000}
+              height={4000}
               alt="Picture of the author"
             />
           </div>
@@ -113,11 +113,11 @@ function page() {
       {/* LITTLE CINEMA */}
       <div className="bg-[#B6B585] h-[750px] w-[100%] flex justify-center items-center">
         <div className="flex justify-center items-center bg-[#A8A78B] h-[600px] w-[1150px]">
-          <div>
+          <div className="">
             <Image
               src="/.././public/./images/portrait-stock.jpg"
-              width={1000}
-              height={1000}
+              width={4000}
+              height={4000}
               alt="Picture of the author"
             />
           </div>
@@ -173,8 +173,8 @@ function page() {
           <div>
             <Image
               src="/.././public/./images/portrait-stock.jpg"
-              width={1000}
-              height={1000}
+              width={4000}
+              height={4000}
               alt="Picture of the author"
             />
           </div>
@@ -186,8 +186,8 @@ function page() {
           <div>
             <Image
               src="/.././public/./images/portrait-stock.jpg"
-              width={1000}
-              height={1000}
+              width={4000}
+              height={4000}
               alt="Picture of the author"
             />
           </div>
