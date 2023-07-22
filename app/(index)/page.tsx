@@ -8,33 +8,34 @@ function page() {
     <div>
       <div>
         <div className="flex flex-row space-x-7 justify-center mt-14 mb-14 text-center">
-          <div className="h-80 w-52 border-2 justify-items-center">
-            <Link href="/festival">
+          <Link href="/festival">
+            <div className="h-80 w-52 border-2 justify-items-center">
               <p>KOLKATA PEOPLE FILM FESTIVAL</p>
-            </Link>
-          </div>
-          <div className="h-80 w-52 border-2">
-            <Link href="/screenings">
+            </div>
+          </Link>
+          <Link href="/screenings">
+            <div className="h-80 w-52 border-2">
               <p>SCREENINGS</p>
-            </Link>
-          </div>
-          <div className="h-80 w-52 border-2">
-            <Link href="/littlecinema">
+            </div>
+          </Link>
+          <Link href="/littlecinema">
+            <div className="h-80 w-52 border-2">
               <p>LITTLE CINEMA</p>
-            </Link>
-          </div>
-          <div className="h-80 w-52 border-2">
-            <Link href="/fof">
+            </div>
+          </Link>
+          <Link href="/fof">
+            <div className="h-80 w-52 border-2">
               <p>FRAMES OF FREEDOM</p>
-            </Link>
-          </div>
-          <div className="h-80 w-52 border-2">
-            <Link href="/stories">
+            </div>
+          </Link>
+          <Link href="/stories">
+            <div className="h-80 w-52 border-2">
               <p>STORIES</p>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
+
       <div className="bg-[#3C6771] h-[700px] w-[100%] flex justify-center items-center">
         <div className="flex justify-center items-center bg-[#9AAFA8] h-[600px] w-[1100px] mb-32">
           <div>img</div>
@@ -61,6 +62,7 @@ function page() {
           </div>
         </div>
       </div>
+
       <MainFooter />
     </div>
   );
