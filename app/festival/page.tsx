@@ -1,9 +1,13 @@
 import React from 'react'
+import KPFFFooter from '../components/KPFFFooter'
+import Location from '../components/Location'
 
 function page() {
   return (
     <div>
-      <div>home</div>
+      <div>kpff</div>
+      <Location />
+      <KPFFFooter />
     </div>
   )
 }

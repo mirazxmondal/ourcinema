@@ -6,7 +6,7 @@ function FOFNavbar() {
   return (
     <div>
       <div className="h-20 mx-auto px-32 flex items-center justify-between font-normal shadow-md">
-        <Link href="/" className="text-2xl cursor-pointer">
+        <Link href="/fof" className="text-2xl cursor-pointer">
           Logo
         </Link>
         <ul className="flex items-center gap-5">

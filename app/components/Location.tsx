@@ -3,22 +3,22 @@ import React from "react";
 function Location() {
   return (
     <div>
-    <div className="bg-[#B4B4B5] flex flex-row mr-48 ml-48 p-10 mb-10 rounded-md">
+    <div className="bg-[#d9d9df] flex flex-row mr-48 ml-48 p-10 mb-10 rounded-md">
       {/* GET IN TOUCH */}
       <div>
       <div className="pr-56">
           <p className="text-3xl font-medium mb-6">GET IN TOUCH</p>
           <form action="" className="text-xl flex flex-col w-80 space-y-2">
-            <label htmlFor="">Name</label>
+            <label htmlFor="">NAME</label>
             <input type="text" className="h-8 w-96 p-5" />
-            <label htmlFor="">Email</label>
+            <label htmlFor="">EMAIL</label>
             <input type="email" className="h-8 w-96 p-5" />
-            <label htmlFor="">Subject</label>
+            <label htmlFor="">SUBJECT</label>
             <input type="text" className="h-8 w-96 p-5" />
-            <label htmlFor="">Message</label>
+            <label htmlFor="">MESSAGE</label>
             <input type="text" className="h-52 w-96 p-5" />
             <input
-              type="submit"
+              type="SUBMIT"
               className="bg-black text-white mt-8 font-medium w-28 cursor-pointer h-8 text-base"
             />
           </form>
